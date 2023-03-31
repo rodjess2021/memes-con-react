@@ -33,6 +33,7 @@ function App() {
 
   return (
     <div className="App">
+      <h2 className="titulo">Haz tus memes aqui xd</h2>
       
       <select onChange={onChangeImagen}>
         <option value="pablito">Pablito</option>
@@ -52,6 +53,10 @@ function App() {
         <span>{linea2}</span>
         <img src={"/img/"+ imagen +".jpg"}/>
       </div>
+
+      <footer className="footer">
+        <h3>by: rodjess</h3>
+      </footer>
     </div>
   );
 }

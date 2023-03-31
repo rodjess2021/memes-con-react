@@ -61,3 +61,12 @@
 body, .meme {
   background-color: black;
 }
+
+.titulo {
+  color: white;
+}
+
+.footer {
+  color: white;
+  margin-top: 20pxpx;
+}
